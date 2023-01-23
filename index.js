@@ -22,8 +22,8 @@ document.getElementById('main-btn').addEventListener( "click" , calculator)
 function calculator(){
 let distancejs = document.querySelector("#distance").value;
 let peoplejs = document.querySelector("#people").value;
-
-let amountOfPetrol = distancejs * 9;
+let pp = distancejs * 2;
+let amountOfPetrol = pp * 9;
 let moneyPerPerson = amountOfPetrol/peoplejs
 
 document.querySelector("#money").innerText = moneyPerPerson +" per person";
