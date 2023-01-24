@@ -23,7 +23,7 @@ function calculator(){
 let distancejs = document.querySelector("#distance").value;
 let peoplejs = document.querySelector("#people").value;
 let pp = distancejs * 2;
-let amountOfPetrol = pp * 9;
+let amountOfPetrol = pp * 8.2;
 let moneyPerPerson = amountOfPetrol/peoplejs
 
 document.querySelector("#money").innerText = moneyPerPerson +" per person";
